@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7F1340A-EE63-90C1-68AC-7B929C7FD0EA" name="TVLR">
+<createdBy>dylan</createdBy>
+<createdTime>2023-07-16 18:08:39 UTC</createdTime>
+<generatorID>5D456C55-50DD-5D1D-EDA7-116E3EF964C8</generatorID>
+<ownerDesignName>Vacation_Final_Project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Traveler_ID" id="5950D010-6813-4D7D-FFF6-4DD38622A75A">
+<createdBy>dylan</createdBy>
+<createdTime>2023-07-16 18:08:39 UTC</createdTime>
+<generatorID>68033744-11D1-7440-A4C8-9C3C1F9BD075</generatorID>
+<ownerDesignName>Vacation_Final_Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="First_Name" id="C620CB17-7B40-21BA-B4F1-252339F697DE">
+<createdBy>dylan</createdBy>
+<createdTime>2023-07-16 18:08:39 UTC</createdTime>
+<generatorID>25A62CE3-35E2-26C9-61B4-02BE5AD6ACCA</generatorID>
+<ownerDesignName>Vacation_Final_Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Last_Name" id="FE412304-608D-FC93-A045-FED932D292D7">
+<createdBy>dylan</createdBy>
+<createdTime>2023-07-16 18:08:39 UTC</createdTime>
+<generatorID>0B01C46E-8200-2179-EC57-9DEEBBA202DA</generatorID>
+<ownerDesignName>Vacation_Final_Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CA73A01D-139A-7A0D-DE7F-3124936EB0E7" name="TVLR_PK">
+<createdBy>dylan</createdBy>
+<createdTime>2023-07-16 18:08:39 UTC</createdTime>
+<generatorID>E24CE2BC-FC99-0664-5B00-926C2F23E7D3</generatorID>
+<ownerDesignName>Vacation_Final_Project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5950D010-6813-4D7D-FFF6-4DD38622A75A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

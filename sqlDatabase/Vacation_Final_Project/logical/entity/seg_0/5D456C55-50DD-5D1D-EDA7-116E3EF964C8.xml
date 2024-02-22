@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5D456C55-50DD-5D1D-EDA7-116E3EF964C8" name="TRAVELERS">
+<createdBy>dylan</createdBy>
+<createdTime>2023-07-10 22:30:31 UTC</createdTime>
+<ownerDesignName>Vacation_Final_Project</ownerDesignName>
+<engineerTo>
+<item key="472E60EB-5313-9EA1-B3A8-37A45ABB892C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>TVLR</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Traveler_ID" id="68033744-11D1-7440-A4C8-9C3C1F9BD075">
+<createdBy>dylan</createdBy>
+<createdTime>2023-07-10 22:32:50 UTC</createdTime>
+<ownerDesignName>Vacation_Final_Project</ownerDesignName>
+<engineerTo>
+<item key="472E60EB-5313-9EA1-B3A8-37A45ABB892C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="First_Name" id="25A62CE3-35E2-26C9-61B4-02BE5AD6ACCA">
+<createdBy>dylan</createdBy>
+<createdTime>2023-07-10 22:34:10 UTC</createdTime>
+<ownerDesignName>Vacation_Final_Project</ownerDesignName>
+<engineerTo>
+<item key="472E60EB-5313-9EA1-B3A8-37A45ABB892C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Last_Name" id="0B01C46E-8200-2179-EC57-9DEEBBA202DA">
+<createdBy>dylan</createdBy>
+<createdTime>2023-07-10 22:34:42 UTC</createdTime>
+<ownerDesignName>Vacation_Final_Project</ownerDesignName>
+<engineerTo>
+<item key="472E60EB-5313-9EA1-B3A8-37A45ABB892C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E24CE2BC-FC99-0664-5B00-926C2F23E7D3" name="TRAVELERS PK">
+<createdBy>dylan</createdBy>
+<createdTime>2023-07-10 22:34:00 UTC</createdTime>
+<ownerDesignName>Vacation_Final_Project</ownerDesignName>
+<engineerTo>
+<item key="472E60EB-5313-9EA1-B3A8-37A45ABB892C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>68033744-11D1-7440-A4C8-9C3C1F9BD075</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

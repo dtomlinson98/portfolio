@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DF5F3E8E-660D-8798-9F5B-1975275E5712" containerWithKeyObject="A0FFD3EA-1E0B-F56A-5F78-14F733085C20" localFKIndex="4C66D658-681E-60AB-AEF6-6ECA49E87D83" name="LR_TVLR_FK">
+<createdBy>dylan</createdBy>
+<createdTime>2023-07-16 18:08:39 UTC</createdTime>
+<generatorID>EA761C95-CC23-2D09-4201-DAD91C54B959</generatorID>
+<ownerDesignName>Vacation_Final_Project</ownerDesignName>
+<referredTableLongName>TVLR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E7F1340A-EE63-90C1-68AC-7B929C7FD0EA</referredTableID>
+<keyObject>CA73A01D-139A-7A0D-DE7F-3124936EB0E7</keyObject>
+<referredKeyID>CA73A01D-139A-7A0D-DE7F-3124936EB0E7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Traveler_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

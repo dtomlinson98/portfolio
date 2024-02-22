@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5699F473-8F3A-B1A3-DA91-DEF2F90ECBBE" name="ACTIVITIES">
+<createdBy>dylan</createdBy>
+<createdTime>2023-07-10 22:45:55 UTC</createdTime>
+<ownerDesignName>Vacation_Final_Project</ownerDesignName>
+<engineerTo>
+<item key="472E60EB-5313-9EA1-B3A8-37A45ABB892C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>ACT</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Activity_ID" id="DB258805-7153-1550-C511-53B1AC028E42">
+<createdBy>dylan</createdBy>
+<createdTime>2023-07-10 22:46:44 UTC</createdTime>
+<ownerDesignName>Vacation_Final_Project</ownerDesignName>
+<engineerTo>
+<item key="472E60EB-5313-9EA1-B3A8-37A45ABB892C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="42EDA9BE-C876-C14B-5658-569097330763">
+<createdBy>dylan</createdBy>
+<createdTime>2023-07-10 22:47:30 UTC</createdTime>
+<ownerDesignName>Vacation_Final_Project</ownerDesignName>
+<engineerTo>
+<item key="472E60EB-5313-9EA1-B3A8-37A45ABB892C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Category" id="82044E67-62EB-E190-B0C0-8F9AE93044AD">
+<createdBy>dylan</createdBy>
+<createdTime>2023-07-10 22:48:42 UTC</createdTime>
+<ownerDesignName>Vacation_Final_Project</ownerDesignName>
+<engineerTo>
+<item key="472E60EB-5313-9EA1-B3A8-37A45ABB892C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Description" id="60E827D1-4AEF-73BE-A2C9-C51AD4AAFC06">
+<createdBy>dylan</createdBy>
+<createdTime>2023-07-10 22:48:07 UTC</createdTime>
+<ownerDesignName>Vacation_Final_Project</ownerDesignName>
+<engineerTo>
+<item key="472E60EB-5313-9EA1-B3A8-37A45ABB892C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5A6C537E-F423-727A-9971-F88F9A06B895" name="ACTIVITIES PK">
+<createdBy>dylan</createdBy>
+<createdTime>2023-07-10 22:47:01 UTC</createdTime>
+<ownerDesignName>Vacation_Final_Project</ownerDesignName>
+<engineerTo>
+<item key="472E60EB-5313-9EA1-B3A8-37A45ABB892C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DB258805-7153-1550-C511-53B1AC028E42</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

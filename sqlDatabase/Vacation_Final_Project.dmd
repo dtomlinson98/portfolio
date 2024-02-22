@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Vacation_Final_Project" id="8F5A1624-CD8F-D58E-8370-D9C74DBCC495" version="3.5">
+<createdBy>dylan</createdBy>
+<createdTime>2023-07-10 22:30:24 UTC</createdTime>
+<ownerDesignName>Vacation_Final_Project</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>8F5A1624-CD8F-D58E-8370-D9C74DBCC495</designId>
+</OSDM_Design>

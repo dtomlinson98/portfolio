@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="58A18228-2B2C-D1B7-219A-AD8E779BEAAE" name="TOP">
+<createdBy>dylan</createdBy>
+<createdTime>2023-07-16 18:08:39 UTC</createdTime>
+<generatorID>9FB52B38-C7AB-4EE0-E7F8-6E3567065AFD</generatorID>
+<ownerDesignName>Vacation_Final_Project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Option_Id" id="C71EDC65-D3F0-F853-BA8A-8691CE8B6438">
+<createdBy>dylan</createdBy>
+<createdTime>2023-07-16 18:08:39 UTC</createdTime>
+<generatorID>5EE1596A-B853-75E0-86C4-FF4089EB67F2</generatorID>
+<ownerDesignName>Vacation_Final_Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Location_ID" id="ED3BF075-B9C5-35A0-00AB-239C35AEC210">
+<createdBy>dylan</createdBy>
+<createdTime>2023-07-16 18:08:39 UTC</createdTime>
+<generatorID>52688EAB-054A-B685-A358-E6C4583FFB33</generatorID>
+<ownerDesignName>Vacation_Final_Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Travel_Mode" id="8DE5759D-F746-B3BF-5E54-A88812EB2B8C">
+<createdBy>dylan</createdBy>
+<createdTime>2023-07-16 18:08:39 UTC</createdTime>
+<generatorID>E6CDB2E5-CF29-7D5B-0840-F9BC486DD328</generatorID>
+<ownerDesignName>Vacation_Final_Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Travel_Time" id="BFA538DF-38E0-7633-F58E-1ED5C92D9C7A">
+<createdBy>dylan</createdBy>
+<createdTime>2023-07-16 18:08:39 UTC</createdTime>
+<generatorID>1DE206DF-0BAD-A68A-C93F-779BD6DCF3FA</generatorID>
+<ownerDesignName>Vacation_Final_Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOC_Location_ID" id="3BB59B41-94A1-15CA-CD2B-040444EC9412">
+<createdBy>dylan</createdBy>
+<createdTime>2023-07-16 18:08:39 UTC</createdTime>
+<generatorID>3D25DE3C-84B9-612A-A5A3-748BD5AF95CC</generatorID>
+<ownerDesignName>Vacation_Final_Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="12467708-B647-92BC-8FD3-7CC4BA2DD805" referredColumn="4A404C93-52CE-CC44-2CAD-91264F7904DF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="94088E13-F794-BAD9-EFA3-45E6A6A1DEF5" name="TOP_PK">
+<createdBy>dylan</createdBy>
+<createdTime>2023-07-16 18:08:39 UTC</createdTime>
+<generatorID>E3E8235B-A8B3-D78F-E616-27F6F778FEEE</generatorID>
+<ownerDesignName>Vacation_Final_Project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C71EDC65-D3F0-F853-BA8A-8691CE8B6438"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6232C9BF-971B-C550-1650-CFC212B94568" name="TOP_LOC_FK">
+<createdBy>dylan</createdBy>
+<createdTime>2023-07-16 18:08:39 UTC</createdTime>
+<generatorID>ECAB3C4E-3876-9F98-A692-D734E81EC4D0</generatorID>
+<ownerDesignName>Vacation_Final_Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BB59B41-94A1-15CA-CD2B-040444EC9412"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

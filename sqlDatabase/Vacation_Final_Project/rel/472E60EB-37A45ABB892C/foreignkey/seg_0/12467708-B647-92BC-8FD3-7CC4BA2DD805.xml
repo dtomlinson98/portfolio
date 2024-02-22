@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="12467708-B647-92BC-8FD3-7CC4BA2DD805" containerWithKeyObject="58A18228-2B2C-D1B7-219A-AD8E779BEAAE" localFKIndex="6232C9BF-971B-C550-1650-CFC212B94568" name="TOP_LOC_FK">
+<createdBy>dylan</createdBy>
+<createdTime>2023-07-16 18:08:39 UTC</createdTime>
+<generatorID>ECAB3C4E-3876-9F98-A692-D734E81EC4D0</generatorID>
+<ownerDesignName>Vacation_Final_Project</ownerDesignName>
+<referredTableLongName>LOC</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EA86685D-3949-E5CC-5574-AACAB7B1B1C8</referredTableID>
+<keyObject>61F1661E-1B3D-DE28-3303-3705E290DBF1</keyObject>
+<referredKeyID>61F1661E-1B3D-DE28-3303-3705E290DBF1</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>Location_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

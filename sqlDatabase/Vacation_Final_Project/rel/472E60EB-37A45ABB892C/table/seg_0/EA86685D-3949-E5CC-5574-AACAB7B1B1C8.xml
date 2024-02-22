@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EA86685D-3949-E5CC-5574-AACAB7B1B1C8" name="LOC">
+<createdBy>dylan</createdBy>
+<createdTime>2023-07-16 18:08:39 UTC</createdTime>
+<generatorID>909FF598-9363-BC3A-2B6C-054D78C4C8FA</generatorID>
+<ownerDesignName>Vacation_Final_Project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Location_ID" id="4A404C93-52CE-CC44-2CAD-91264F7904DF">
+<createdBy>dylan</createdBy>
+<createdTime>2023-07-16 18:08:39 UTC</createdTime>
+<generatorID>632B465B-FE4B-01A1-DAE4-BB25BB371BB7</generatorID>
+<ownerDesignName>Vacation_Final_Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="City" id="BC62DDC5-58B8-4C7B-968E-4116A45F09A9">
+<createdBy>dylan</createdBy>
+<createdTime>2023-07-16 18:08:39 UTC</createdTime>
+<generatorID>1FFFC964-4010-F579-6EBC-DBF11245DCCA</generatorID>
+<ownerDesignName>Vacation_Final_Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Country/State/Provence" id="FE655082-F728-7AA7-AD8E-036FD5203FBA">
+<createdBy>dylan</createdBy>
+<createdTime>2023-07-16 18:08:39 UTC</createdTime>
+<generatorID>9353C743-574D-A403-8C96-D4D650DF80AA</generatorID>
+<ownerDesignName>Vacation_Final_Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Description" id="48143C7C-E0FA-4AEF-9D7F-C85779E180FA">
+<createdBy>dylan</createdBy>
+<createdTime>2023-07-16 18:08:39 UTC</createdTime>
+<generatorID>B1D1C555-293D-1EC0-D0A3-A0FBCB52BCA8</generatorID>
+<ownerDesignName>Vacation_Final_Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="61F1661E-1B3D-DE28-3303-3705E290DBF1" name="LOC_PK">
+<createdBy>dylan</createdBy>
+<createdTime>2023-07-16 18:08:39 UTC</createdTime>
+<generatorID>D92D9BFE-7F62-2F14-3FFC-1DDF546F49D3</generatorID>
+<ownerDesignName>Vacation_Final_Project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A404C93-52CE-CC44-2CAD-91264F7904DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D9EA4654-E263-8EC4-AA6C-4C3E0D3FAFDA" name="LOC_COS_FK">
+<createdBy>dylan</createdBy>
+<createdTime>2023-07-16 18:08:39 UTC</createdTime>
+<generatorID>CB220208-CEE1-9DF9-1C4F-CE26902BF10C</generatorID>
+<ownerDesignName>Vacation_Final_Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

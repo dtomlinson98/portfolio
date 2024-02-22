@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4933D79E-BCBF-357D-2616-37DE92E9A7DB" name="LACT">
+<createdBy>dylan</createdBy>
+<createdTime>2023-07-16 18:08:39 UTC</createdTime>
+<generatorID>D1D43AFD-ABE9-05AD-CF70-9624760FAC3F</generatorID>
+<ownerDesignName>Vacation_Final_Project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Location_ID" id="ADD368FB-DB70-77A0-DB3E-6DBC64C086F5">
+<createdBy>dylan</createdBy>
+<createdTime>2023-07-16 18:08:39 UTC</createdTime>
+<generatorID>F628898A-FE84-BA36-6A46-E6B21E553D86</generatorID>
+<ownerDesignName>Vacation_Final_Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Activity_ID" id="B1C55A2F-45B5-992C-76DF-EB8846FEA62F">
+<createdBy>dylan</createdBy>
+<createdTime>2023-07-16 18:08:39 UTC</createdTime>
+<generatorID>EBFCCE68-6136-E74E-1206-BD4A84B3847E</generatorID>
+<ownerDesignName>Vacation_Final_Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOC_Location_ID" id="8EEC35D4-3ED2-77A8-CB29-FFC291BB77C5">
+<createdBy>dylan</createdBy>
+<createdTime>2023-07-16 18:08:39 UTC</createdTime>
+<generatorID>851B77CD-3E54-D48C-E243-3ECE09E0E7AB</generatorID>
+<ownerDesignName>Vacation_Final_Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="55EEDF73-C08B-9926-3AE3-172C1D100D0B" referredColumn="4A404C93-52CE-CC44-2CAD-91264F7904DF"/>
+</associations>
+</Column>
+<Column name="ACT_Activity_ID" id="BB348C07-9D2C-4563-182F-F444467B6E42">
+<createdBy>dylan</createdBy>
+<createdTime>2023-07-16 18:08:39 UTC</createdTime>
+<generatorID>FA45A8D6-541F-5050-3BAD-8F70BB6FF811</generatorID>
+<ownerDesignName>Vacation_Final_Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5B5D5646-8F5B-80BF-8DDE-685E615A5744" referredColumn="3AC66F36-C60E-A807-3EEB-D227A9B36BC3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F5187E05-F229-091F-6BA7-E6C57D957B3D" name="LACT_PK">
+<createdBy>dylan</createdBy>
+<createdTime>2023-07-16 18:08:39 UTC</createdTime>
+<generatorID>E1C7F90A-1C23-4DB0-8960-F7A7198139E0</generatorID>
+<ownerDesignName>Vacation_Final_Project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8EEC35D4-3ED2-77A8-CB29-FFC291BB77C5"/>
+<colUsage columnID="BB348C07-9D2C-4563-182F-F444467B6E42"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B79C6588-E716-1992-09B7-01E8BB1093C9" name="LACT_LOC_FK">
+<createdBy>dylan</createdBy>
+<createdTime>2023-07-16 18:08:39 UTC</createdTime>
+<generatorID>FA48A258-4720-60B8-7057-65B7FF228A16</generatorID>
+<ownerDesignName>Vacation_Final_Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8EEC35D4-3ED2-77A8-CB29-FFC291BB77C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F32A0F1C-AA70-2DAC-8B44-D621D23AE2E7" name="LACT_ACT_FK">
+<createdBy>dylan</createdBy>
+<createdTime>2023-07-16 18:08:39 UTC</createdTime>
+<generatorID>6396CE4B-D914-1553-E863-F3D0B828F0FF</generatorID>
+<ownerDesignName>Vacation_Final_Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB348C07-9D2C-4563-182F-F444467B6E42"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
