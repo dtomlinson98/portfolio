@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Lilly and Dylan's Wedding</title>
+	<meta charset = "utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="final.css">
+</head>
+
+<body>
+<div id="wrapper">
+<header>
+	<h1><a href="final.html">Lilly & Dylan</a></h1>
+</header>
+<style>
+    fieldset {
+    color: whitesmoke;
+    width:75%;
+    background-color: #E39C5B;
+    padding: 10px;
+}
+
+label {
+    float: left;
+    clear: left;
+    display: block;
+    width: 100px;
+    padding-right: 10px;
+    margin-top: 10px;
+    text-align: right;
+}
+
+
+
+input {
+    display: block;
+    margin-top: 1px;
+}
+
+textarea {
+    display: block;
+    margin-top: 10px;
+}
+
+.rsvp {
+    text-align: left;
+}
+
+fieldset p {
+    text-align: left;
+    margin-left: 10px;
+}
+
+input[type="submit"] {                              /*styles a 3d button*/
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    color:#ecf0f1;                 
+    text-decoration:none;
+    border-radius:5px;
+    border:solid 1px #592311;
+    background-color: #592311;
+    text-align:center;
+    padding: 10px 15px 12px;
+    box-shadow: 0px 6px 0px #a56e5c;
+}
+
+input {
+    margin-top: 1em;
+}
+
+input:active {                                      /*styles a 3d button click*/
+    -webkit-box-shadow: 0px 2px 0px salmon;
+    -moz-box-shadow: 0px 2px 0px rgb(238, 89, 73);
+    position:relative;
+    top: 5px;
+    box-shadow: 0px 5px rgb(238, 89, 73);
+}
+</style>
+
+<nav>
+	<ul>
+	<li><a href="final.html">Home</a></li>
+	<li><a href="schedule.html">Schedule</a></li> 
+	<li><a href="wedding_party.html">Wedding Party</a></li>  
+	<li><a href="rsvp.html">RSVP</a></li>  
+	<li><a href="photos.html">Photos</a></li>  
+	</ul>
+</nav>
+
+<main>
+	<div class="rsvp">
+        <h2>Please inform us with your plans to attend</h2>
+    </div>
+    
+	<form method="post" action="https://webdevbasics.net/scripts/demo.php">
+        <fieldset>
+            <label for="name">Name: </label>
+                <input type="text" name="name"id="name" required><br><br>
+            <label for="quantity">Number of Guests:</label>
+                <input type="number" id="guests" name="guests" min="1"><br><br>
+            <label for="email">Email/Phone: </label>
+                <input type="text" name="email" id="email"><br><br>
+            <label for="allergies">Allergies:</label>
+                <textarea name="comments" id="comments"
+                rows="4" cols="24"></textarea><br><br>
+            <p>Will you be attending?</p>
+            <label for="yes">Yes</label>
+                <input type="radio" name="yes" id="yes"><br><br>
+            <label for="no">No</label>
+                <input type="radio" name="no" id="no"><br><br>
+                <input type="submit" value="RSVP!">
+        </fieldset>
+        </form>
+      
+	<div class="message2">
+		<p>Please use this page to inform us of your plans to or to not attend this event. 
+            Also, feel free to provide any allergies for you and your family so we might make 
+            accomadations.</p>
+	</div>
+	  
+</main>
+<footer>
+		<p>Copyright &copy; 2022 Dylan Tomlinson<br>
+		<a href="mailto:dmtomlinson@mail.fhsu.edu">dmtomlinson@mail.fhsu.edu</a>
+		</p>
+</footer>
+</div>
+</body>
+</html>
